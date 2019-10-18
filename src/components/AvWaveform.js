@@ -64,7 +64,7 @@ const props = {
    */
   playtime: {
     type: Boolean,
-    default: true
+    default: false
   },
   /**
    * prop: 'playtime-with-ms'
@@ -74,7 +74,7 @@ const props = {
    */
   playtimeWithMs: {
     type: Boolean,
-    default: true
+    default: false
   },
   /**
    * prop: 'playtime-font-size'
@@ -83,7 +83,7 @@ const props = {
    */
   playtimeFontSize: {
     type: Number,
-    default: 12
+    default: 0
   },
   /**
    * prop: 'playtime-font-family'
